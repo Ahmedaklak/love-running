@@ -12,9 +12,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
     /* Generic project syle */
-    color: #3a3a3a
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* header styles */
@@ -48,10 +48,23 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/* Navbar styles with dropdown menu */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left : 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+
+
+}
 /* main content styles */
 main {
     background-color: lightblue;
-    /* Make main element ttake up any surplus space so the header is pushed down */ 
+    /* Make main element take up any surplus space so the header is pushed down */ 
     flex: 1 0 auto;
 }
 /* footer styles */
