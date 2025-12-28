@@ -1,3 +1,5 @@
+/*Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 /* asterisk wildcard selector is being used to override general browser styles */
 
 * {
@@ -21,7 +23,7 @@ header {
 /* main content styles */
 main {
     background-color: lightblue;
-    /* Make main element ttake up any surplus space so the header is pushed down */
+    /* Make main element ttake up any surplus space so the header is pushed down */ 
     flex: 1 0 auto;
 }
 /* footer styles */
